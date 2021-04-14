@@ -1,0 +1,73 @@
+@import "./common";
+@import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+
+.logo-header{
+  padding:0;
+  margin: 0;
+  position:absolute;
+  top:0;
+  left:5px;
+}
+
+.horizontal-split-top{
+  background:#063e72;
+  color:#fff;
+  min-height:46px;
+}
+
+.horizontal-split-bottom{
+  height: 62px;
+  background:#308ec7;
+  color:#fff;
+}
+
+#wrap {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  background: #E8E8E8;
+  padding-bottom: 1px; 
+}
+
+.username,
+.password {
+  display: flex;
+  margin: 20px 15px;
+}
+
+.password {
+  margin-bottom: 5px;
+}
+
+.form-title{
+  color: #000000;
+  margin: 15px;
+}
+
+#login-form{
+  background: #FFFFFF;
+  margin: 5px;
+}
+
+.button-container {
+  display: flex;
+  width: 300px;
+  margin: 15px;
+}
+
+.button-container button {
+  margin: 3px;
+}
+
+.terms-and-conditions{
+  font-size: 9pt;
+  margin: 15px;
+  text-align: justify;
+}
+
+.forgot-password{
+  margin: 5px 45px;
+  font-size: 9pt;
+  text-decoration: none;
+}
